@@ -12,7 +12,7 @@ class Button extends Component
 
     public function render()
     {
-        return view('shadcn::components.button', [
+        return view('shadcn::button', [
             'variant' => $this->variant,
             'size' => $this->size,
         ]);
