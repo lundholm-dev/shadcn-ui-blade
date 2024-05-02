@@ -14,5 +14,13 @@
             "email": "mads@madslundholm.dk"
         }
     ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LundholmDev\\ShadcnUiBlade\\ShadcnUiServiceProvider"
+            ]
+        }
+    },
     "require": {}
+
 }
